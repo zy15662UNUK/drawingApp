@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Drawing app</title>
+  <meta name="description" content="A description of your website">
+  <meta name="keywords" content="keyword1, keyword2, keyword3">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css\font-awesome-4.7.0\css\font-awesome.css" />
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <nav class="">
+    <div class="container pt-3 pb-4">
+      <div class="color-selector in-line">
+        <span>Color: </span>
+        <div class="input in-line">
+          <input type="color" name="" value="#ff0000" id="color-input">
+        </div>
+      </div>
+      <div class="size-selector in-line">
+        <span class="in-line">Size: </span>
+        <div id="slider" class="in-line slide-bar"></div>
+        <div class="size-example in-line"></div>
+      </div>
+      <div class="tool-selector in-line">
+        <div class="pen in-line">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+        </div>
+        <div class="rubber in-line">
+          <i class="fa fa-eraser" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div class="file-selector in-line">
+        <div class="save in-line">
+          <span>Save</span>
+        </div>
+        <div class="reset in-line">
+          <span>Reset</span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="canvas-container">
+    <canvas id="canvas"></canvas>
+  </div>
+  <script src="JS\jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <!-- <script src="JS\data.js"></script> -->
+  <script src="JS\app.js"></script>
+</body>
+</html>
